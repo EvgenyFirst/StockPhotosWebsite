@@ -1,7 +1,69 @@
 /* --------------------------------------------- */
 /* --------------------------------------------- */
-/* Section */
+/* Section-1 */
 /* --------------------------------------------- */
+
+.section-1 {
+    // background-color: #9bd7e5;
+    // opacity: 0.31;
+
+    display: block;
+    position: relative;
+
+    background-image: url("../img/bg-header.png");
+
+    margin: 0 auto;
+    width: 1280px;
+    min-height: 57px;
+}
+
+.section-1_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+
+    width: 1024px;
+    min-height: 57px;
+}
+
+.section-1__logo-img {
+    display: block;
+
+    background-image: url("../img/logo.png");
+
+    width: 181px;
+    height: 28px;
+
+    margin-left: 6px;
+}
+
+.section-1__burger-btn {
+    display: block;
+
+    background-image: url("../img/bg-burger-btn.png");
+
+    width: 60px;
+    min-height: 57px;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.section-1__burger-btn-img {
+    display: block;
+
+    background-image: url("../img/burger-btn.png");
+
+    width: 38px;
+    height: 29px;
+
+    margin-top: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 16px;
+}
 
 /* --------------------------------------------- */
 /* --------------------------------------------- */

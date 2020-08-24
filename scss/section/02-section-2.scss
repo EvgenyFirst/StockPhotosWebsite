@@ -3,5 +3,26 @@
 /* Section */
 /* --------------------------------------------- */
 
+.section-2 {
+    display: block;
+    
+    background-image: url("../img/main-slide.jpg");
+    background-repeat: no-repeat;
+
+    margin-top: -71px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    
+    width: 1280px;
+    height: 608px;
+}
+
+.section-2__arrow-left,
+.section-2__container,
+.section-2__arrow-rght {
+    padding-top: 71px;
+}
+
 /* --------------------------------------------- */
 /* --------------------------------------------- */
