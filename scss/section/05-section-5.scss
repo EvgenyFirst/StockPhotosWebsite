@@ -3,5 +3,38 @@
 /* Section */
 /* --------------------------------------------- */
 
+.section-5 {
+    margin-top: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+
+    width: 1280px;
+    min-height: 44px;
+
+    background-color: #484242;
+}
+
+.section-5__container {
+    display: flex;
+    justify-content: center;
+}
+
+.section-5__container-link {
+    text-decoration: none;
+
+    font-size: 17.3px;
+    color: rgba( 255, 255, 255, 0.502 );
+    font-weight: 400;
+    text-align: center;
+
+    margin-top: 17px;
+    margin-bottom: 17px;
+
+    &:hover {
+        color: #ffffff;
+        transition: 1s;
+    }
+}
 /* --------------------------------------------- */
 /* --------------------------------------------- */

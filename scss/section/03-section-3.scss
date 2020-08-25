@@ -3,5 +3,51 @@
 /* Section */
 /* --------------------------------------------- */
 
+.section-3 {
+    margin: 0 auto;
+    width: 1280px;
+    min-height: 113px;
+
+    border-bottom: 2px solid #e3e3e3;
+}
+
+.section-3__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 1024px;
+    margin: 0 auto;
+
+    padding-top: 23px;
+    padding-left: 164px;
+    padding-right: 141px;
+}
+
+.section-3__container-header {
+    font-size: 37.3px;
+    color: #8b8b8b;
+    font-weight: 400;
+}
+
+.section-3__container-link {
+    font-size: 37.3px;
+    color: #ffffff;
+    text-decoration: none;
+
+    background-color: #8fcddc;
+
+    width: 256px;
+    min-height: 63px;
+
+    padding-top: 24px;
+    padding-left: 22px;
+
+    &:hover {
+        background-color: #3d7b8a;
+        transition: 1s;
+    }
+}
+
 /* --------------------------------------------- */
 /* --------------------------------------------- */
