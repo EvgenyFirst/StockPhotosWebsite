@@ -41,7 +41,6 @@ body {
 
 .container {
     width: 1280px;
-    max-width: 1280vw;
     min-width: 100%;
     min-height: 960px;
 
@@ -50,6 +49,10 @@ body {
     bottom: 0;
 
     margin: 0 auto;
+}
+
+.viually-hidden {
+    display: none;
 }
 
 /* --------------------------------------------- */

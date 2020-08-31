@@ -4,9 +4,6 @@
 /* --------------------------------------------- */
 
 .section-1 {
-    // background-color: #9bd7e5;
-    // opacity: 0.31;
-
     display: block;
     position: relative;
 
@@ -15,6 +12,8 @@
     margin: 0 auto;
     width: 1280px;
     min-height: 57px;
+
+    z-index: 5;
 }
 
 .section-1_container {

@@ -56,13 +56,16 @@ body {
 
 .container {
   width: 1280px;
-  max-width: 1280vw;
   min-width: 100%;
   min-height: 960px;
   position: absolute;
   top: 0;
   bottom: 0;
   margin: 0 auto;
+}
+
+.viually-hidden {
+  display: none;
 }
 
 /* --------------------------------------------- */
@@ -78,6 +81,7 @@ body {
   margin: 0 auto;
   width: 1280px;
   min-height: 57px;
+  z-index: 5;
 }
 
 .section-1_container {
@@ -125,17 +129,49 @@ body {
 /* Section */
 /* --------------------------------------------- */
 .section-2 {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  background-image: url("../img/main-slide.jpg");
-  background-repeat: no-repeat;
-  margin-top: -71px;
+  width: 1280px;
+  margin-top: 13px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 0;
-  width: 1280px;
+}
+
+.section-2__slide-top {
+  z-index: 4;
+}
+
+.section-2__slide-1 {
+  background-image: url("../img/main-slide.jpg");
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  background-repeat: no-repeat;
+  margin-top: -71px;
   min-height: 480px;
+  z-index: 3;
+}
+
+.section-2__slide-2 {
+  background-image: url("../img/slide-2.jpg");
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  background-repeat: no-repeat;
+  min-height: 480px;
+  margin-top: -479px;
+}
+
+.section-2__slide-3 {
+  background-image: url("../img/slide-3.jpg");
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  background-repeat: no-repeat;
+  min-height: 480px;
+  margin-top: -480px;
 }
 
 .section-2__arrow-left {
@@ -271,15 +307,15 @@ body {
   color: #636363;
   font-weight: 400;
   text-align: center;
-  margin-top: 36px;
+  margin-top: 42px;
   margin-bottom: 41px;
 }
 
 .section-4__flex {
   display: flex;
   justify-content: space-between;
-  padding-left: 64px;
-  padding-right: 40px;
+  padding-left: 179px;
+  padding-right: 158px;
   padding-bottom: 71px;
 }
 
@@ -308,7 +344,7 @@ body {
 /* Section */
 /* --------------------------------------------- */
 .section-5 {
-  margin-top: 8px;
+  margin-top: -12px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 0px;
@@ -330,6 +366,7 @@ body {
   text-align: center;
   margin-top: 17px;
   margin-bottom: 17px;
+  padding-right: 15px;
 }
 .section-5__container-link:hover {
   color: #ffffff;

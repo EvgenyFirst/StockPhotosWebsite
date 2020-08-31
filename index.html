@@ -2,23 +2,23 @@
 
 <html lang="en">
 
-	<head>
-		
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-		<title>StockPhotosWebsite</title>
-		<link rel="stylesheet" href="css/normalize.css">
-		<link rel="stylesheet" href="css/main.css">
-		<!--
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<title>StockPhotosWebsite</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/main.css">
+	<!--
 			<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script>
 			<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700" rel="stylesheet">
 			 <link rel="shortcut icon" href="img/ " type="image/png"> 
 		-->
 
-	</head>
+</head>
 
-	<body>
-		<div class="container">
+<body>
+	<div class="container">
 		<!--  -->
 		<!-- Section-1 -->
 		<header class="section-1">
@@ -35,22 +35,67 @@
 		<!--  -->
 		<!--  -->
 		<!-- Section-2 -->
+
 		<section class="section-2">
-			<span class="section-2__arrow-left"></span>
-			<div class="section-2__container">
-				<p class="section-2__text">
-					Photos, illustrations by <br>
-					creatives all over the world.
-				</p>
-				<div class="section-2__form">
-					<form action="/">
-						<input type="search" class="section-2__form-input" placeholder="People walking">
-						<button type="submit" class="section-2__form-img"></button>
-					</form>
+			<h1 class="viually-hidden">Slider</h1> <!-- Требование валидатора https://validator.w3.org/nu/ -->
+			<!-- slide 1 start -->
+			<div class="section-2__slide-1">
+				<span class="section-2__arrow-left section-2__arrow-left-1" tabindex="0"></span>
+				<div class="section-2__container">
+					<p class="section-2__text">
+						Photos, illustrations by <br>
+						creatives all over the world.
+					</p>
+					<div class="section-2__form">
+						<form action="/">
+							<input type="search" class="section-2__form-input" placeholder="People walking">
+							<button type="submit" class="section-2__form-img"></button>
+						</form>
+					</div>
 				</div>
+				<span class="section-2__arrow-right section-2__arrow-right-1" tabindex="0"></span>
 			</div>
-			<span class="section-2__arrow-right"></span>
+			<!-- slide 1 end -->
+
+			<!-- slide 2 start -->
+			<div class="section-2__slide-2">
+				<span class="section-2__arrow-left section-2__arrow-left-2" tabindex="0"></span>
+				<div class="section-2__container">
+					<p class="section-2__text">
+						2) Photos, illustrations by <br>
+						creatives all over the world.
+					</p>
+					<div class="section-2__form">
+						<form action="/">
+							<input type="search" class="section-2__form-input" placeholder="People walking">
+							<button type="submit" class="section-2__form-img"></button>
+						</form>
+					</div>
+				</div>
+				<span class="section-2__arrow-right section-2__arrow-right-2" tabindex="0"></span>
+			</div>
+			<!-- slide 2 end -->
+
+			<!-- slide 3 start -->
+			<div class="section-2__slide-3">
+				<span class="section-2__arrow-left section-2__arrow-left-3" tabindex="0"></span>
+				<div class="section-2__container">
+					<p class="section-2__text">
+						3) Photos, illustrations by <br>
+						creatives all over the world.
+					</p>
+					<div class="section-2__form">
+						<form action="/">
+							<input type="search" class="section-2__form-input" placeholder="People walking">
+							<button type="submit" class="section-2__form-img"></button>
+						</form>
+					</div>
+				</div>
+				<span class="section-2__arrow-right section-2__arrow-right-3" tabindex="0"></span>
+			</div>
+			<!-- slide-3 end -->
 		</section>
+
 		<!-- Section-2 End -->
 		<!--  -->
 		<!--  -->
@@ -88,7 +133,7 @@
 						</li>
 						<li>
 							<a href="#" class="section-4__flex-lists-link">
-								The Arts	
+								The Arts
 							</a>
 						</li>
 						<li>
@@ -226,7 +271,7 @@
 						</li>
 						<li>
 							<a href="#" class="section-4__flex-lists-link">
-								Vectors	
+								Vectors
 							</a>
 						</li>
 						<li>
@@ -251,7 +296,10 @@
 		</footer>
 		<!-- Section-5 End -->
 		<!--  -->
-		</div>
-	</body>
+	</div>
+
+	<script src="js/section-3-slider.js"></script>
+
+</body>
 
 </html>
